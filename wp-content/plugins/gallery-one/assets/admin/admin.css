@@ -1,0 +1,299 @@
+.s-form-edit-media {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.clearafter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sg-galleries-browser .media-toolbar {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.sg-galleries-browser {
+  display: block;
+  position: relative;
+}
+
+.sg-gird {
+  margin: 0px;
+}
+
+.sg-gird:after {
+  clear: both;
+  content: ' ';
+  display: block;
+}
+
+.sg-gird li.attachment {
+  width: 11.11%;
+}
+
+.select-mod li {
+  opacity: .5;
+}
+
+.select-mod li.selected {
+  opacity: 1;
+}
+
+.attachments {
+  position: relative;
+}
+.attachments .ui-sortable-placeholder {
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  max-height: 50px;
+}
+
+/* Add box */
+.sg-add-box {
+  text-align: center;
+  border: 4px dashed #b4b9be;
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+.sg-add-box .gallery-url {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.sg-modal {
+  display: none;
+}
+
+.sg-title {
+  margin-bottom: 15px;
+}
+
+.wp-core-ui .gallery-one-gird {
+  margin: 0px 10px 15px;
+}
+
+.gallery-one-gird {
+  background: none;
+  margin: -5px;
+}
+.gallery-one-gird .selected.attachment {
+  background: none !important;
+  box-shadow: none;
+}
+.gallery-one-gird li {
+  margin-bottom: 15px;
+}
+.gallery-one-gird li .link {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gallery-one-gird[data-columns="1"] .attachment {
+  width: 100%;
+}
+
+.gallery-one-gird[data-columns="2"] .attachment {
+  width: 50%;
+}
+
+.gallery-one-gird[data-columns="3"] .attachment {
+  width: 33.33%;
+}
+
+.gallery-one-gird[data-columns="4"] .attachment {
+  width: 25%;
+}
+
+.gallery-one-gird[data-columns="5"] .attachment {
+  width: 20%;
+}
+
+.gallery-one-gird[data-columns="6"] .attachment {
+  width: 16.66%;
+}
+
+.gallery-one-gird[data-columns="7"] .attachment {
+  width: 14.28%;
+}
+
+.gallery-one-gird[data-columns="8"] .attachment {
+  width: 12.5%;
+}
+
+.gallery-one-gird[data-columns="9"] .attachment {
+  width: 11.11%;
+}
+
+.gallery-one-gird[data-columns="10"] .attachment {
+  width: 10%;
+}
+
+.gallery-one-gird[data-columns="11"] .attachment {
+  width: 9.09%;
+}
+
+.gallery-one-gird[data-columns="12"] .attachment {
+  width: 8.33%;
+}
+
+/* Edit/ Add new galery */
+.social-media-url.error {
+  border-color: red;
+}
+
+#s-album-items {
+  margin-top: 15px;
+  min-height: 150px;
+  display: block;
+}
+
+.sg-title {
+  margin-top: 15px;
+}
+
+.sg-title input, .sg-social-url input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.sg-social-url {
+  margin-top: 14px;
+  display: block;
+  display: none;
+}
+.sg-social-url.input-error input {
+  border-color: #d74113;
+}
+
+.s-edit-form-bar {
+  background: #F5F5F5;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+  padding: 15px 16px;
+  display: block;
+}
+.s-edit-form-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.s-edit-form-bar .save-btn {
+  float: right;
+}
+
+/* Editor style */
+.insert-gallery-one span {
+  margin-top: 2px;
+  margin-right: 3px;
+}
+
+.s-modal-actions {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.album-cover {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #dddddd;
+  min-height: 120px;
+  display: block;
+}
+.album-cover img {
+  max-height: 120px;
+  width: auto;
+}
+
+.s-shortcode-modal .media-sidebar .setting .name {
+  max-width: 150px;
+}
+
+/* Shortcode */
+.s-shortcode-modal .attachments-browser .attachments {
+  top: 7px;
+}
+.s-shortcode-modal .attachments .attachment-preview {
+  position: relative;
+}
+.s-shortcode-modal .attachments .attachment-preview .thumbnail::after {
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.45);
+  visibility: hidden;
+}
+.s-shortcode-modal .attachments li:hover .thumbnail::after {
+  visibility: visible;
+}
+.s-shortcode-modal .attachments li:hover .attachment-count {
+  display: block;
+}
+.s-shortcode-modal .attach-title {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  min-height: 28px;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: left;
+}
+.s-shortcode-modal .attachment-count {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  height: 30px;
+  margin-top: -15px;
+  line-height: 30px;
+  color: #ffffff;
+  display: none;
+}
+
+/* Column */
+.column-s_images .media-item {
+  display: inline-block;
+  float: left;
+  margin-right: 3px;
+}
+.column-s_images img {
+  max-height: 50px;
+  width: auto;
+}
+.column-s_images .media-item.more-images {
+  height: 50px;
+  min-width: 50px;
+  background: #cccccc;
+  text-align: center;
+}
+.column-s_images .media-item.more-images span {
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 10px;
+}

@@ -1,0 +1,378 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gallery One\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat May 21 2016 10:13:55 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Sat May 21 2016 10:13:58 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Gallery One"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://shrimp2t.com/gallery-one"
+msgstr ""
+
+#. Description of the plugin
+msgid "A cool responsive gallery plugin with beautifully views."
+msgstr ""
+
+#. Author of the plugin
+msgid "shrimp2t"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wordpress.org"
+msgstr ""
+
+#: ../init.php:38
+msgctxt "post type general name"
+msgid "Galleries"
+msgstr ""
+
+#: ../init.php:39
+msgctxt "post type singular name"
+msgid "Gallery"
+msgstr ""
+
+#: ../init.php:40
+msgctxt "admin menu"
+msgid "Galleries"
+msgstr ""
+
+#: ../init.php:41
+msgctxt "add new on admin bar"
+msgid "Gallery"
+msgstr ""
+
+#: ../init.php:42
+msgctxt "gallery"
+msgid "Add New"
+msgstr ""
+
+#: ../init.php:43
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../init.php:44
+msgid "New Gallery"
+msgstr ""
+
+#: ../init.php:45
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../init.php:46
+msgid "View Gallery"
+msgstr ""
+
+#: ../init.php:47
+msgid "All Galleries"
+msgstr ""
+
+#: ../init.php:48
+msgid "Search Galleries"
+msgstr ""
+
+#: ../init.php:49
+msgid "Parent Galleries:"
+msgstr ""
+
+#: ../init.php:50
+msgid "No Galleries found."
+msgstr ""
+
+#: ../init.php:51
+msgid "No Galleries found in Trash."
+msgstr ""
+
+#: ../init.php:56
+msgid "Description."
+msgstr ""
+
+#: ../admin/class-admin.php:52 ../admin/class-admin.php:116
+#, php-format
+msgid "+%s"
+msgid_plural "+%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/class-admin.php:60
+msgid "No images"
+msgstr ""
+
+#: ../admin/class-admin.php:79
+msgid "Images"
+msgstr ""
+
+#: ../admin/class-admin.php:221 ../admin/edit.php:40
+msgid "Bulk Select"
+msgstr ""
+
+#: ../admin/class-admin.php:222
+msgid "Cancel Select"
+msgstr ""
+
+#: ../admin/class-admin.php:223
+msgid "Are you sure want to delete selected ?"
+msgstr ""
+
+#: ../admin/edit.php:41
+msgid "Delete Selected"
+msgstr ""
+
+#: ../admin/edit.php:44
+msgid "Insert images"
+msgstr ""
+
+#: ../admin/edit.php:48
+msgid "Facebook, Flickr album or Image url here"
+msgstr ""
+
+#: ../admin/edit.php:48
+msgid "Load your ablumb, image..."
+msgstr ""
+
+#: ../admin/edit.php:49
+msgid "Load"
+msgstr ""
+
+#: ../admin/edit.php:68 ../admin/editor.php:171
+msgid "Deselect"
+msgstr ""
+
+#: ../admin/edit.php:79
+msgid "Edit previous media item"
+msgstr ""
+
+#: ../admin/edit.php:80
+msgid "Edit next media item"
+msgstr ""
+
+#: ../admin/edit.php:83
+msgid "Media Details"
+msgstr ""
+
+#: ../admin/edit.php:92
+msgid "Import"
+msgstr ""
+
+#: ../admin/edit.php:101
+msgid "Saved."
+msgstr ""
+
+#: ../admin/edit.php:106
+msgid "URL"
+msgstr ""
+
+#: ../admin/edit.php:111
+msgid "Title"
+msgstr ""
+
+#: ../admin/edit.php:116
+msgid "Caption"
+msgstr ""
+
+#: ../admin/edit.php:121
+msgid "Description"
+msgstr ""
+
+#: ../admin/edit.php:126
+msgid "Link"
+msgstr ""
+
+#: ../admin/edit.php:131
+msgid "Tags"
+msgstr ""
+
+#: ../admin/editor.php:42
+msgid "Insert Gallery"
+msgstr ""
+
+#: ../admin/editor.php:98
+msgid "Edit album"
+msgstr ""
+
+#: ../admin/editor.php:113
+msgid "Insert Album"
+msgstr ""
+
+#: ../admin/editor.php:130
+msgid "[Untitled]"
+msgstr ""
+
+#: ../admin/editor.php:141
+#, php-format
+msgid "%s Image"
+msgstr ""
+
+#: ../admin/editor.php:158
+#, php-format
+msgid "+%s Images"
+msgid_plural "+%s Images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/editor.php:163
+#, php-format
+msgid "%s Images"
+msgid_plural "%s Images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../admin/editor.php:180
+msgid "Please select album"
+msgstr ""
+
+#: ../admin/editor.php:184
+msgid "Details"
+msgstr ""
+
+#: ../admin/editor.php:186
+msgid "Display settings"
+msgstr ""
+
+#: ../admin/editor.php:188
+msgid "View"
+msgstr ""
+
+#: ../admin/editor.php:190
+msgid "Select view"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:5
+msgid "Carousel"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:15 ../frontend/views/slider/config.php:15
+msgid "Pause"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:16 ../frontend/views/slider/config.php:16
+msgid "The time (in ms) between each auto transition."
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:22 ../frontend/views/slider/config.php:22
+msgid "Speed"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:23 ../frontend/views/slider/config.php:23
+msgid "Transition duration (in ms)"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:30 ../frontend/views/slider/config.php:37
+msgid "Loop"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:37 ../frontend/views/slider/config.php:44
+msgid "Auto"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:38 ../frontend/views/slider/config.php:45
+msgid "Slider will automatically start to play."
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:45 ../frontend/views/slider/config.php:52
+msgid "Pager"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:46 ../frontend/views/slider/config.php:53
+msgid "Enable pager option."
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:55 ../frontend/views/slider/config.php:70
+msgid "LightBox"
+msgstr ""
+
+#: ../frontend/views/carousel/config.php:56 ../frontend/views/slider/config.php:71
+msgid "Enable LightBox."
+msgstr ""
+
+#: ../frontend/views/gird/config.php:5
+msgid "Gird"
+msgstr ""
+
+#: ../frontend/views/gird/config.php:15 ../frontend/views/masonry/config.php:21
+msgid "Desktop columns"
+msgstr ""
+
+#: ../frontend/views/gird/config.php:31 ../frontend/views/masonry/config.php:38
+msgid "Tablet columns"
+msgstr ""
+
+#: ../frontend/views/gird/config.php:34 ../frontend/views/gird/config.php:51 ..
+#: /frontend/views/masonry/config.php:24 ../frontend/views/masonry/config.php:41 .
+#: ./frontend/views/masonry/config.php:58
+msgid "-"
+msgstr ""
+
+#: ../frontend/views/gird/config.php:48 ../frontend/views/masonry/config.php:55
+msgid "Phone columns"
+msgstr ""
+
+#: ../frontend/views/gird/config.php:65 ../frontend/views/masonry/config.php:73
+msgid "Show Lightbox"
+msgstr ""
+
+#: ../frontend/views/justified/config.php:6
+msgid "Justified"
+msgstr ""
+
+#: ../frontend/views/justified/config.php:12
+msgid "Margins"
+msgstr ""
+
+#: ../frontend/views/justified/config.php:18
+msgid "Row Height"
+msgstr ""
+
+#: ../frontend/views/justified/config.php:24
+msgid "Lightbox"
+msgstr ""
+
+#: ../frontend/views/masonry/config.php:5
+msgid "Masonry"
+msgstr ""
+
+#: ../frontend/views/masonry/config.php:15
+msgid "Gutter"
+msgstr ""
+
+#: ../frontend/views/slider/config.php:5
+msgid "Slider"
+msgstr ""
+
+#: ../frontend/views/slider/config.php:30
+msgid "Gallery"
+msgstr ""
+
+#: ../frontend/views/slider/config.php:31
+msgid "Enable thumbnails gallery."
+msgstr ""
+
+#: ../frontend/views/slider/config.php:60
+msgid "ThumbItem"
+msgstr ""
+
+#: ../frontend/views/slider/config.php:61
+msgid "Number of gallery thumbnail to show at a time."
+msgstr ""

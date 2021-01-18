@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'sg';
+  src: url('../font/sg.eot?72979741');
+  src: url('../font/sg.eot?72979741#iefix') format('embedded-opentype'),
+       url('../font/sg.woff2?72979741') format('woff2'),
+       url('../font/sg.woff?72979741') format('woff'),
+       url('../font/sg.ttf?72979741') format('truetype'),
+       url('../font/sg.svg?72979741#sg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'sg';
+    src: url('../font/sg.svg?72979741#sg') format('svg');
+  }
+}
+*/
+ 
+ [class^="sgi-"]:before, [class*=" sgi-"]:before {
+  font-family: "sg";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.sgi-gplus:before { content: '\e800'; } /* '' */
+.sgi-flickr:before { content: '\e801'; } /* '' */
+.sgi-instagram:before { content: '\e802'; } /* '' */
+.sgi-wordpress:before { content: '\e803'; } /* '' */
+.sgi-twitter:before { content: '\e804'; } /* '' */
+.sgi-youtube:before { content: '\e805'; } /* '' */
+.sgi-vimeo:before { content: '\e806'; } /* '' */
+.sgi-pinterest:before { content: '\e807'; } /* '' */
+.sgi-cloudapp:before { content: '\e808'; } /* '' */
+.sgi-github-circled:before { content: '\e809'; } /* '' */
+.sgi-facebook:before { content: '\e80a'; } /* '' */
+.sgi-cogs:before { content: '\e80b'; } /* '' */
+.sgi-cog-circled:before { content: '\e80c'; } /* '' */
+.sgi-cog:before { content: '\e80d'; } /* '' */
+.sgi-search:before { content: '\e80e'; } /* '' */
+.sgi-heart:before { content: '\e80f'; } /* '' */
+.sgi-star:before { content: '\e810'; } /* '' */
+.sgi-group:before { content: '\e811'; } /* '' */
+.sgi-cancel:before { content: '\e812'; } /* '' */
+.sgi-ok:before { content: '\e813'; } /* '' */
+.sgi-folder:before { content: '\e814'; } /* '' */
+.sgi-chat:before { content: '\e815'; } /* '' */
+.sgi-comment-alt:before { content: '\e816'; } /* '' */
+.sgi-attention:before { content: '\e817'; } /* '' */
+.sgi-location:before { content: '\e818'; } /* '' */
+.sgi-reply-all:before { content: '\e819'; } /* '' */
+.sgi-reply:before { content: '\e81a'; } /* '' */
+.sgi-picture:before { content: '\e81b'; } /* '' */
+.sgi-location-1:before { content: '\e81c'; } /* '' */
+.sgi-trash:before { content: '\e81d'; } /* '' */
+.sgi-th-large:before { content: '\e81e'; } /* '' */
+.sgi-th:before { content: '\e81f'; } /* '' */
+.sgi-video:before { content: '\e820'; } /* '' */
+.sgi-resize-small:before { content: '\e832'; } /* '' */
+.sgi-resize-full:before { content: '\e839'; } /* '' */
+.sgi-resize-full-alt:before { content: '\e83a'; } /* '' */

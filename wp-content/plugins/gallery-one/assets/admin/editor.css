@@ -1,0 +1,89 @@
+.gallery-one {
+  width: 100%;
+  text-align: center;
+  min-height: 120px;
+  display: block;
+  margin-bottom: 15px;
+  background-color: #dddddd;
+  position: relative;
+  cursor: pointer;
+}
+.gallery-one.gallery-one-selected {
+  background-color: #4b9ac4;
+}
+.gallery-one.gallery-one-selected .gallery-one-tinymce-toolbar {
+  display: block;
+}
+.gallery-one .gallery-one-preview {
+  padding-top: 20px;
+}
+.gallery-one .gallery-one-preview:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.gallery-one .gallery-one-preview .dashicons {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.gallery-one .gallery-one-preview .dashicons:before {
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+}
+.gallery-one .gallery-one-preview .media-item {
+  height: 80px;
+  display: inline-block;
+}
+.gallery-one .gallery-one-preview .media-item img, .gallery-one .gallery-one-preview .media-item span {
+  padding: 2px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+.gallery-one .gallery-one-preview .media-item img {
+  height: 80px;
+  width: auto;
+  margin-bottom: 0px !important;
+  display: inline-block;
+  float: left;
+}
+.gallery-one .gallery-one-preview .media-item span {
+  height: 80px;
+  min-width: 80px;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 15px;
+  float: left;
+  line-height: 80px;
+  font-size: 22px;
+}
+
+.gallery-one-tinymce-toolbar {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.gallery-one-tinymce-toolbar .dashicons {
+  cursor: pointer;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  padding: 10px;
+  background: #333333;
+  color: #ffffff;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 5px;
+  position: relative;
+}
+.gallery-one-tinymce-toolbar .dashicons:before {
+  vertical-align: initial;
+  line-height: 24px;
+}
